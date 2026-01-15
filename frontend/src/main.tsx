@@ -7,7 +7,7 @@ import "./index.css";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/The-Definitive-QR-Code-Generator-Image-Background-Remover">
       <App />
     </BrowserRouter>
   </StrictMode>
