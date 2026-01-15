@@ -11,12 +11,14 @@ export const Header = () => {
         <h1 className="text-2xl md:text-3xl font-bold text-slate-100">
           The Definitive QR Code Generator & Image Background Remover
         </h1>
+        {/* Temporarily hidden donate button
         <button
           onClick={() => navigate(isDonatePage ? "/" : "/donate")}
           className="bg-orange-600 hover:bg-orange-700 text-white font-semibold px-6 py-2.5 rounded-lg transition-colors duration-200 shadow-lg hover:shadow-orange-500/50"
         >
           {isDonatePage ? "Back to Home" : "Donate here ;)"}
         </button>
+        */}
       </div>
     </header>
   );
